@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: whitesmoke;
+}
+
+/* *:focus {
+    outline: none;
+} */
+
+.header {
+    height: 9vh;
+}
+
+.footer {
+    height: 9vh;
+}
+.mainContainer {
+    height: 82vh;
+}
+.cont {
+    background-color: whitesmoke;
+}
+.container {
+    background-color:whitesmoke;
+    margin: 50px auto;
+}
+
+    .container__header {
+        text-align: center;
+        color: black;
+    }
+
+        .container__header--red {
+            color: red
+        }
+
+    .container__text {
+        text-align: center;
+        color: black;
+    }
+
+    .container--black {
+        background-color:black;
+        margin: 50px auto;
+    }
+
+.grid-list{
+    list-style-type: none;
+}
+
+.grid-list > li:nth-child(even){
+    background-color:white;
+}
+
+    .grid-list__text{
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .grid-list__item{
+        border: 2px solid black;
+        margin-bottom: 5px;
+    }
+
+/*---------------- LogIn form  ------------------------*/
+
+.containerForm {
+    width: 30%;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 0 0 1px 1px rgba(50, 50, 50, 0.1);
+}
+
+
+    .containerForm__elementContainer {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+            .containerForm__elementContainer--position {
+                text-align: center;
+            }
+
+.formBox {
+    padding: 40px;
+    font-family: Georgia, serif;
+}
+
+    .formBox__logo {
+        width: 15%;
+        margin: auto;
+    }
+
+    .formBox__logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .formBox__formHeader {
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    .formBox__inputElement {
+        width: 100%;
+        border-radius: 5px;
+        padding: 15px 5px;
+        outline: none;
+    }
+
+    .formBox__aHref {
+        color: blue;
+    }
+    .formBox__aHref:hover {
+        color: blue;
+        text-decoration: none;
+    }
+
+.button {
+    display: inline-block;
+	border-radius: 3px;
+	padding: 7px 12px;
+	border: 1px solid #D5D5D5;
+	background-color: whitesmoke;
+    cursor: pointer;
+}
+
+        .button--state-logIn {
+            background-color: rgb(39, 210, 52);
+            width: 100%;
+            padding: 10px 0px;
+        }
+
+    .formBox__footer {
+        padding: 15px 0px;
+    }
+

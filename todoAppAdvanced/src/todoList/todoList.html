@@ -1,0 +1,15 @@
+<template>
+    <require from="../css/style.css"></require>
+
+    <div class="container">
+        <h1 class="container__header  container__header--red ">Todo List</h1>
+        <h2>${firstName}</h2>
+        <ul class="grid-list">
+            <li repeat.for="todo of todoList">
+                <div class="grid-list__item" >
+                    <span class="grid-list__text">${todo.title} 
+                        <input type="checkbox" checked.bind="todo.completed"></span>
+            </li>
+        </ul>
+    </div>
+</template>

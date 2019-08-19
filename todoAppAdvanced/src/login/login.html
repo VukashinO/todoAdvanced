@@ -1,0 +1,26 @@
+<template>
+    <require from="../css/style.css"></require>
+    <div class="containerForm">
+
+            <form class="formBox" submit.trigger="onSubmit()">
+                <div class="formBox__logo">
+                   <img src="../../src/assets/images/keyform.jpg.jpg" alt="keyform">
+                </div>
+                <div class="formBox__formHeader">
+                    <h3>Log In</h3>
+                </div>
+                <div class="containerForm__elementContainer">
+                    <input class="formBox__inputElement" type="text" placeholder="E-mail" value.bind="email">
+                </div>
+                <div class="containerForm__elementContainer">
+                    <input class="formBox__inputElement" type="password" placeholder="Password" value.bind="password">
+                </div>
+                <div class="containerForm__elementContainer">
+                    <input type="submit" class="button button--state-logIn">
+                </div>
+                <div class="containerForm__elementContainer containerForm__elementContainer--position">
+                    <p class="formBox__footer">Already a member ? <a href="landing" class="formBox__aHref">Sign Up here</a> </p>
+                </div>
+            </form>
+    </div>
+</template>
